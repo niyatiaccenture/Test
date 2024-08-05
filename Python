@@ -1,0 +1,5 @@
+# Add a Pydantic model for the JSON body
+from pydantic import BaseModel
+
+class TextModel(BaseModel):
+    text: str
